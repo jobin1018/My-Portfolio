@@ -2,32 +2,190 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./cs/style.css">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>jobin's Portfolio</title>
 </head>
-<div class="container h-100 d-flex justify-content-center align-items-center">
-    <div class="text-white">
-        <h3>This site is under development, will
-            make it
-            available asap.</h1>
-    </div>
-</div>
 
 <body>
+	<header>
+		<div class="header-container inner-container">
+			<div class="branding">
+				<a href="#heroSection"><img src="./images/myLogo.svg" alt="logo"></a>
+			</div>
+			<div>
+				<div class="hamburger">
+					<div class="line"></div>
+					<div class="line"></div>
+					<div class="line"></div>
+				</div>
+				<ul class="nav-links text-center">
+					<li><a href="#portfolioSection">Portfolio</a></li>
+					<li><a href="#aboutSection">About</a></li>
+					<li><a href="#contactSection">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<section id="heroSection">
+		<div class="inner-container">
+			<div class="hero-content text-white">
+				<h1>Design To Deployment<br>
+					I Got You Covered</h1>
+				<p><span>Jobin Joseph</span> | Full Stack Web Developer</p>
+				<a href="#portfolioSection" class="btn btn-primary hero-main-btn">My Works</a>
+				<a href="#contactSection" class="btn btn-secondary hero-second-btn">Contact Me</a>
+			</div>
+		</div>
+	</section>
+	<section id="portfolioSection">
+		<div class="inner-container">
+			<div class="section-title d-flex justify-content-center">
+				<h2>Portfolio</h2>
+			</div>
+			<div class="row mt-4">
+				<div class="col-12 col-sm-12 col-md-6 col-lg-4">
+					<div class="card portfolio-card mx-auto mb-4">
+						<img class="card-img-top" src="./images/mibaMockup_bg.jpg" alt="portfolio card image">
+						<div class="card-body text-center">
+							<p class="card-text">MIBA Church Website (Dynamic)</p>
+						</div>
+						<a href="https://miba.org.au/" target="blank_" class="view-site-btn"> View Site</a>
+					</div>
+				</div>
+				<div class="col-12 col-sm-12 col-md-6 col-lg-4">
+					<div class="card portfolio-card mx-auto mb-4">
+						<img class="card-img-top" src="./images/crossRoadsMockup_bg.jpg" alt="portfolio card image">
+						<div class="card-body text-center">
+							<p class="card-text">CrossRoads Website (Static)</p>
+						</div>
+						<a href="https://jobin1018.github.io/Cross-Roads-Website/" target="blank_"
+							class="view-site-btn">
+							View Site</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="text-white" id="aboutSection">
+		<div class="inner-container">
+			<div class="section-title d-flex justify-content-center mb-0">
+				<h2>About</h2>
+			</div>
+			<div>
+				<h3 class="text-center">Who Am I?</h3>
+				<p>Hi, I’m Jobin Joseph and I’m a full stack web developer based in Kerala, India. I
+					enjoy the process of
+					making websites and that motivates me everyday to be more productive.</p>
+			</div>
+			<div>
+				<h3 class="text-center pb-2">Why Me?</h3>
+				<div class="text-center">
+					<div class="row why-me">
+						<div class="col-12 col-sm-12 col-md-4 col-lg-4">
+							<img class="mx-auto pb-2" src="./images/responsive.svg" alt="">
+							<p>Responsive
+								websites
+								that fits in any screen sizes.</p>
+						</div>
+						<div class="col-12 col-sm-12 col-md-4 col-lg-4">
+							<img class="mx-auto pb-2" src="./images/ui-design.svg" alt="">
+							<p>Simple and elegant UI/UX.</p>
+						</div>
+						<div class="col-12 col-sm-12 col-md-4 col-lg-4">
+							<img class="mx-auto pb-2" src="./images/speed.svg" alt="">
+							<p>Faster load time and lag free experience.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<h3 class="text-center">Technologies I Have Worked With?</h3>
+				<div class="row technologies">
+					<div class="col-4 col-sm-4 col-md-2 col-lg-2 d-flex justify-content-center">
+						<img src="./images/logos_html-5.svg" alt="html">
+					</div>
+					<div class="col-4 col-sm-4 col-md-2 col-lg-2 d-flex justify-content-center">
+						<img src="./images/logos_css-3.svg" alt="css">
+					</div>
+					<div class="col-4 col-sm-4 col-md-2 col-lg-2 d-flex justify-content-center">
+						<img src="./images/logos_bootstrap.svg" alt="bootstrap">
+					</div>
+					<div class="col-4 col-sm-4 col-md-2 col-lg-2 d-flex justify-content-center">
+						<img src="./images/logos_javascript.svg" alt="javascript">
+					</div>
+					<div class="col-4 col-sm-4 col-md-2 col-lg-2 d-flex justify-content-center">
+						<img src="./images/logos_python.svg" alt="python">
+					</div>
+					<div class="col-4 col-sm-4 col-md-2 col-lg-2 d-flex justify-content-center">
+						<img src="./images/logos_django.svg" alt="django">
+					</div>
+					<div class="col-4 col-sm-4 col-md-2 col-lg-2 d-flex justify-content-center">
+						<img src="./images/logos_postgresql.svg" alt="postgresql">
+					</div>
+					<div class="col-4 col-sm-4 col-md-2 col-lg-2 d-flex justify-content-center">
+						<img src="./images/logos_vue.svg" alt="vue">
+					</div>
+					<div class="col-4 col-sm-4 col-md-2 col-lg-2 d-flex justify-content-center">
+						<img src="./images/logos_figma.svg" alt="figma">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contactSection">
+		<div class="inner-container">
+			<div class="section-title d-flex justify-content-center">
+				<h2>Contact</h2>
+			</div>
+			<div class="form-section">
+				<form>
+					<div class="form-group">
+						<label for="exampleInputName">Name</label>
+						<input type="text" class="form-control" id="exampleInputName" placeholder="Your name">
+					</div>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Email address</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+							placeholder="Enter email">
+					</div>
+					<div class="form-group">
+						<label for="exampleFormControlTextarea1">Message</label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary contact-btn">Submit</button>
+				</form>
+			</div>
+		</div>
+	</section>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
+	<footer>
+		<div class="footer-inner">
+			<ul class="social-links text-center">
+				<li><a href="#"><i class="fab fa-facebook-f"></i></a></i></li>
+				<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+				<li><a href="#"><i class="fas fa-envelope"></i></a></li>
+			</ul>
+			<div class="footer-bottom text-center">
+				JOBIN JOSEPH &copy; 2020
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/0c3e909231.js" crossorigin="anonymous"></script>
+	<script src="./js/app.js"></script>
 </body>
 
 </html>
