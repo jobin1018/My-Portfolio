@@ -222,7 +222,7 @@ h2::after{
 }
 #contactSection{
     width: 100%;
-    min-height: 70vh;
+    min-height: 85vh;
     padding: 5%;
 }
 label{
@@ -230,6 +230,9 @@ label{
 }
 textarea{
     resize: none;
+}
+.contact-info-section{
+    margin-top: 3rem;
 }
 footer{
     width: 100%;
@@ -309,6 +312,9 @@ footer{
     }
     .view-site-btn{
         top: 40%;
+    }
+    .contact-info-section{
+        margin-top: 0;
     }
     
 }
