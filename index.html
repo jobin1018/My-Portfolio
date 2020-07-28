@@ -145,16 +145,18 @@
 				<form name="contact" method="POST" data-netlify="true">
 					<div class="form-group">
 						<label for="exampleInputName">Name</label>
-						<input type="text" class="form-control" id="exampleInputName" placeholder="Your name">
+						<input name="name" type="text" class="form-control" id="exampleInputName"
+							placeholder="Your name">
 					</div>
 					<div class="form-group">
 						<label for="exampleInputEmail1">Email address</label>
-						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-							placeholder="Enter email">
+						<input name="email" type="email" class="form-control" id="exampleInputEmail1"
+							aria-describedby="emailHelp" placeholder="Enter email">
 					</div>
 					<div class="form-group">
 						<label for="exampleFormControlTextarea1">Message</label>
-						<textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+						<textarea name="message" class="form-control" id="exampleFormControlTextarea1"
+							rows="4"></textarea>
 					</div>
 					<button type="submit" class="btn btn-primary contact-btn">Submit</button>
 				</form>
